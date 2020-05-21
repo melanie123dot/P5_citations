@@ -1,0 +1,73 @@
+@font-face{
+	font-family: "AlexBrush-Regular";
+	src:url("AlexBrush-Regular.ttf") format('truetype');
+}
+p{
+	font-size: 18px;
+}
+h1{
+	margin: auto;
+	font-size: 45px;
+    border:2px double;
+    width: auto;
+    height: auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+h1{
+	color:32313C;
+}
+h1, p{
+	text-align: center;
+}
+h1{
+	text-shadow: 6px 4px 4px white;
+	box-shadow: 6px 4px 4px white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: C596D3;
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+}
+.form-control{
+    width: 70%;
+    border-radius: 1rem;
+    padding: 1.5%;
+}
+
+.contact-form form{
+    padding: 13%;
+}
+.contact-form form .row{
+    margin-bottom: 0%;
+}
+.contact-form h1{
+    margin-bottom: 10%;
+    margin-top: -13%;
+    text-align: center;
+    color: #32313C;
+}
+.contact-form .btnContact {
+    width: 70%;
+    border: none;
+    border-radius: 1rem;
+    padding: 2%;
+    background: #32313C;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+} 
+input {
+    margin: .4rem;
+}
