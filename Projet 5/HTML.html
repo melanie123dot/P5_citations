@@ -39,22 +39,35 @@
                 <h1>Générateur de citations</h1>
                <div class="row">
                     <div class="col-md-6">
+
+
+<!--CHOIX DU NOMBRE DE CITATIONS-->
+                        <form id="formcitation">
+                        <div class="formc-group">
+                        <label for="nbrcitation">Nombre de citations:</label>
+                            <input type="number" min="0" max="5" class="form-control" placeholder="Nombre de citations" value="1" />
+                            <small id="aidenbr" class="form-text text-muted">(5 citations maximum)</small>
+                        </div>
+                      </form>
+
+<!--BOUTONS CITATIONS ET EFFACER-->
+
                         <div class="form-group">
-                            <input type="number" min="0" max="5" class="form-control" placeholder="Nombre de citations" value="" />
+                            <input type="submit" name="btnPhrase" id="btnPhrase" class="btnCitation" value="Nouvelle phrase" />
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Nouvelle phrase" />
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Nouvelle expression" />
+                            <input type="submit" name="btnExpresion" id="btnExpresion" class="btnCitation" value="Nouvelle expression" />
                         </div>
                          <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Effacer" />
+                            <input type="submit" name="btnEffacer" id="btnEffacer" class="btnCitation" value="Effacer" />
                         </div>
                     </div>
+
+<!--CONTENEUR DE CITATIONS-->
+                    
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" style="width: 100%; height: 150px;"></textarea>
+                            <textarea name="txtMsg" id="citation" class="form-control" style="width: 100%; height: 150px;"></textarea>
                         </div>
                     </div>
                 </div>
