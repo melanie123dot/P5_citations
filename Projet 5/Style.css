@@ -1,0 +1,59 @@
+/* TITRE */
+
+h1 {
+	margin: auto;
+	font-size: 45px;
+    border:2px double;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: 32313C;
+    text-shadow: 6px 4px 4px white;
+    box-shadow: 6px 4px 4px white;
+}
+
+/* COULEUR DE FOND */
+
+body {
+    background-color: C596D3;
+}
+
+/* FORMULAIRE */
+
+#formcitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CONTENEUR DE CITATION */
+
+#citation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* PLACEMENT DES BOUTONS */
+
+#rowbtn {
+    padding-top: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/* BOUTONS */
+
+.btnCitation {
+    width: 20%;
+    border: none;
+    border-radius: 1rem;
+    padding: 2%;
+    background: #32313C;
+    font-weight: 500;
+    color: #fff;
+} 
